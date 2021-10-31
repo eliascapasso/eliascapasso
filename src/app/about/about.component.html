@@ -1,0 +1,183 @@
+<div class="container">
+  <div class="row">
+    <div class="col s12 animated bounceInLeft">
+      <h1 class="light-blue-text text-darken-3"><b>Sobre mi</b></h1>
+    </div>
+  </div>
+  <ul class="collapsible animated zoomIn faster" materialize="collapsible">
+    <li>
+      <div
+        class="
+          flow-text
+          collapsible-header
+          valign-wrapper
+          light-blue-text
+          text-darken-3
+          active
+        "
+      >
+        <i class="fa fa-user fa-lg" aria-hidden="true"></i>¿Quien soy?
+      </div>
+      <div class="collapsible-body row">
+        <div class="col s8 offset-s2 m4 l3">
+          <img
+            src="assets/dgm_profile.png"
+            alt="elias capasso profile"
+            class="circle responsive-img profile-img"
+            style="background-color: white"
+          />
+        </div>
+        <div class="col s12 m7 offset-m1 l9 left-align-text">
+          <span class="flow-text light-blue-text text-darken-3 description-text"
+            >Estoy capacitado para desempeñarme en diferentes roles, tales como
+            programador, tester, analista funcional, arquitecto de Software e
+            incluso soporte técnico.<br /><br />Me considero una persona
+            responsable, dinámica y creativa, con facilidad de adaptación y
+            capacidad de trabajar en equipo, en condiciones de alta presión, con
+            iniciativa para resolver problemas eficientemente y lograr las metas
+            y objetivos trazados por la organización o cliente en el plazo que
+            se haya definido.<br /><br />Me gusta aprender constantemente nuevas
+            tecnologías, por lo tanto, si existen actividades que me demanden
+            conocimientos que no poseo, no tengo dificultades de autocapacitarme
+            investigando por mi cuenta. Mi área preferida por el momento es el
+            desarrollo de software, en especial la implementación de
+            aplicaciones móviles en Android y desarrollo de páginas web en el
+            front-end utilizando Angular.</span
+          >
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        class="
+          flow-text
+          collapsible-header
+          valign-wrapper
+          light-blue-text
+          text-darken-3
+        "
+      >
+        <i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>Educación
+      </div>
+      <div class="collapsible-body">
+        <table class="flow-text">
+          <tbody>
+            <tr *ngFor="let e of education">
+              <td>
+                <a
+                  class="light-blue-text text-darken-3"
+                  href="{{ e.href }}"
+                  target="_blank"
+                  >{{ e.field_1 }}</a
+                >
+              </td>
+              <td class="right-align">{{ e.field_3 }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+    <li>
+      <div
+        class="
+          flow-text
+          collapsible-header
+          valign-wrapper
+          light-blue-text
+          text-darken-3
+        "
+      >
+        <i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>Experiencia profesional
+      </div>
+      <div class="collapsible-body">
+        <table class="flow-text">
+          <tbody>
+            <tr *ngFor="let work of works">
+              <td>
+                <a
+                  class="light-blue-text text-darken-3"
+                  href="{{ work.href }}"
+                  target="_blank"
+                  >{{ work.field_1 }} @ {{ work.field_2 }}</a
+                >
+              </td>
+              <td class="right-align">{{ work.field_3 }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+    <li *ngIf="starredProjects && starredProjects.length > 0">
+      <div
+        class="
+          flow-text
+          collapsible-header
+          valign-wrapper
+          light-blue-text
+          text-darken-3
+        "
+      >
+        <i class="fa fa-star fa-lg" aria-hidden="true"></i>Proyectos
+      </div>
+      <div class="collapsible-body">
+        <table class="flow-text">
+          <tbody>
+            <tr *ngFor="let p of starredProjects">
+              <td>
+                <a
+                  class="light-blue-text text-darken-3"
+                  href="{{ p.html_url }}"
+                  target="_blank"
+                  >{{ p.name }}</a
+                >
+              </td>
+              <td>{{ p.description }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+    <li>
+      <div
+        class="
+          flow-text
+          collapsible-header
+          valign-wrapper
+          light-blue-text
+          text-darken-3
+        "
+      >
+        <i class="fa fa-language fa-lg" aria-hidden="true"></i>Idiomas
+      </div>
+      <div class="collapsible-body">
+        <table class="flow-text">
+          <tbody>
+            <tr *ngFor="let lang of languages">
+              <td class="light-blue-text text-darken-3">{{ lang.field_1 }}</td>
+              <td>{{ lang.field_2 }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+  </ul>
+  <div class="row animated fadeInUp faster delay-1s">
+    <div class="card-link col s12 m2 offset-m10 btn-large">
+      <a
+        id="downloadButton"
+        class="
+          light-blue light-blue
+          lighten-5
+          light-blue-text
+          text-darken-3
+          valign-wrapper
+          center
+        "
+        href="https://drive.google.com/file/d/17OKQVbV8k_9eqKvyWvJSstpEHNpYROTK/view?usp=sharing"
+        target="_blank"
+        download
+        >Abrir C.V. <i class="fa fa-file-o fa-fw" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>

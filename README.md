@@ -1,16 +1,21 @@
-### Hi there 👋
+# Elias Capasso's personal website
 
-<!--
-**eliascapasso/eliascapasso** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Live version 
 
-Here are some ideas to get you started:
+* Check a **live version** of this repo at [eliascapasso.com](http://eliascapasso.com/) 
+* You can also check the master branch in github pages at [https://eliascapasso.github.io/](https://eliascapasso.github.io/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚙️ Development commands
+
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## 🛠️ Used APIs
+
+* [Materialize css](https://materializecss.com/)
+* [Animate.css](https://daneden.github.io/animate.css/)
+
+## 🖼️ Screenshots
+
+![Imgur](https://imgur.com/xOjLfx4.png)
