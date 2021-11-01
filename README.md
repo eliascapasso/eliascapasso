@@ -15,7 +15,3 @@
 
 * [Materialize css](https://materializecss.com/)
 * [Animate.css](https://daneden.github.io/animate.css/)
-
-## 🖼️ Screenshots
-
-![Imgur](https://imgur.com/xOjLfx4.png)
