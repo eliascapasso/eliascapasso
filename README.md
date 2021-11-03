@@ -2,7 +2,7 @@
 
 ## 🚀 Live version 
 
-* Check a **live version** of this repo at [eliascapasso.com](http://eliascapasso.com/) 
+* Check a **live version** of this repo at [eliascapasso.com](http://eliascapasso.web.app/) 
 * You can also check the master branch in github pages at [https://eliascapasso.github.io/](https://eliascapasso.github.io/)
 
 ## ⚙️ Development commands
